@@ -24,6 +24,12 @@ export const ShoppingPage = () => {
         <ProductCard.Title />
         <ProductCard.Buttons />
       </ProductCard>
+
+      <ProductCard product={product}>
+        <ProductCard.Image />
+        <ProductCard.Title title="HOLA MUNDO" />
+        <ProductCard.Buttons />
+      </ProductCard>
     </div>
   );
 };
